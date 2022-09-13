@@ -1,0 +1,83 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+#app{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+#app h1{
+  margin:10px 0;
+  font-size:2rem;
+}
+
+#app .input {
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  width:100%;
+  padding:10px 30px;
+  max-width:700px;
+}
+
+#app .input #title {
+  margin:10px 0;
+  padding:10px 10px;
+  border: 1px solid #eee;
+}
+
+#app .input textarea {
+  height:70px;
+  margin:10px 0;
+  padding:10px 10px;
+  border: 1px solid #eee;
+}
+
+#app .input #add{
+  padding:10px 10px;
+  margin:5px 0;
+  width:100px;
+  background-color:green;
+  color:white;
+  border-radius:5px;
+  border:none;
+}
+
+
+#app #noteSection {
+  display:flex;
+  justify-content:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  max-width:700px;
+}
+
+#app #noteSection #note{
+  border:2px solid black;
+  border-radius:5px;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  width:300px;
+  margin:20px 10px;
+  padding:5px 20px;
+}
+
+#app #noteSection #note p{
+  margin:10px 0px;
+}
+
+#app #noteSection #note button {
+  padding:10px 10px;
+  margin:5px 0;
+  width:100px;
+  background-color:green;
+  color:white;
+  border-radius:5px;
+  border:none;
+}
